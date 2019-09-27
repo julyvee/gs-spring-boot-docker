@@ -16,5 +16,4 @@ steps:
     scriptType: 'bash'
     scriptLocation: 'inlineScript'
     inlineScript: |
-      az group create --name myapp-rg --location eastus
-      az acr create --resource-group myapp-rg --name myContainerRegistry --sku Basic
+      az acr create --resource-group ipt-we-erfa-2-rg --name JVLContainerRegistry --sku Basic
